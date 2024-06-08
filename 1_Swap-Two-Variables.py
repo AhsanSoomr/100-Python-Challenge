@@ -13,5 +13,24 @@ print('The value of x after swapping:',x)
 print('The value of y after swapping:',y)
 
 
+print("-----------------------------------------")
+print("----- Same Question With Fuction --------")
+def swaping(x,y):
+    temp = x
+    x = y
+    y = temp
+    return x,y
+
+x =10 
+y = 20
+x,y = swaping(x,y)
+
+print('The value of x after swapping:',x)
+print('The value of y after swapping:',y)
+
+
+
+
+
 
 
